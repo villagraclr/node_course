@@ -1,0 +1,31 @@
+{
+  "name": "node_course",
+  "version": "1.0.0",
+  "description": "Full Stack training",
+  "main": "index.js",
+  "scripts":  {
+    "run": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/villagraclr/node_course.git"
+  },
+  "author": "Full Stack SpA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/villagraclr/node_course/issues"
+  },
+  "homepage": "https://github.com/villagraclr/node_course#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "bootstrap": "^5.3.0",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "jquery": "^3.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
